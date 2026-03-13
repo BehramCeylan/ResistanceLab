@@ -20,13 +20,3 @@ V_list=(
 for V in V_list:
     f = lambda k:k/((1000/1000)+k-(k*k))-(V*1000)/(2.886*1000)
     print(fsolve(f,[0,1])[0])
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
